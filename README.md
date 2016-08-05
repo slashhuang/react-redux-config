@@ -10,8 +10,11 @@
     npm install 'react-redux-config';
 
 ```
+## demo
 
-#### #single reducer 
+> check the demo file in``` example/index.js```
+
+### single reducer 
 
 ```
     import  _render from 'react-redux-config';
@@ -31,7 +34,7 @@
 
 ```
 
-#### #multiple reducer 
+### multiple reducer 
 
 ```
     import  _render from 'react-redux-config';
@@ -54,7 +57,7 @@
 
 ```
 
-#### #multiple reducer  with middlewares
+### multiple reducer  with middlewares
 
 ```
     import  _render from 'react-redux-config';
