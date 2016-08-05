@@ -1,6 +1,6 @@
 {
   "name": "react-redux-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a module to fasten the building of react+readux project",
   "main": "lib/",
   "repository": "git@github.com:slashhuang/react-redux-config.git",
