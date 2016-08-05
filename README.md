@@ -3,7 +3,7 @@
 > a module to fasten the building of react+readux project
 
 ## features
-> one config file to build the react + redux + `react-redux` project
+> a config file to build the react + redux + `react-redux` project
 
 ## download
 ```
