@@ -1,5 +1,2 @@
-import Welcome from './welcome.js';
-import '../less/index.less';
-module.exports={
-    Welcome
-};
+import _render from './_render'
+export default _render;
