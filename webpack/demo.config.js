@@ -7,7 +7,7 @@ var config = require('../package.json');
 module.exports =extend({}, {
     devtool: "source-map",
     entry:[
-        './example/src/index.js'
+        './example/index.js'
     ],
     output:{
         path:path.join(process.cwd(),'example/bundle'),

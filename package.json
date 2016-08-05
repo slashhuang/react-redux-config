@@ -1,9 +1,9 @@
 {
-  "name": "npm-module-boilerplate",
+  "name": "react-redux-config",
   "version": "0.1.1",
-  "description": "react系列npm模块开发脚手架项目",
+  "description": "a module to fasten the building of react+readux project",
   "main": "lib/",
-  "repository": "git@github.com:slashhuang/npm-module-boilerplate.git",
+  "repository": "git@github.com:slashhuang/react-redux-config.git",
   "keywords": [
     "module",
     "template"
@@ -69,7 +69,7 @@
     "whatwg-fetch": "^1.0.0"
   },
   "bugs": {
-    "url": "http://github.com:slashhuang/npm-module-boilerplate/issues"
+    "url": "https://github.com/slashhuang/react-redux-config/issues"
   },
-  "homepage": "git@github.com:slashhuang/npm-module-boilerplate.git"
+  "homepage": "git@github.com:slashhuang/react-redux-config.git"
 }

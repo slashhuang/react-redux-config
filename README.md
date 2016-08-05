@@ -6,6 +6,10 @@
 1. one config file to build the react + redux + `react-redux` project
 
 ## usage
+```
+    npm install 'react-redux-config';
+    
+```
 
 #### single reducer 
 
