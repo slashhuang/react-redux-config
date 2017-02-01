@@ -45,7 +45,6 @@ export default  (config)=>{
     }
 
     let finalReducers = (typeof reducers=='function')?reducers:combineReducers(reducers);
-
     let ConnectContainer = connect(stateToProps,actions)(Container);
 
     let store = applyMiddleware.apply(null,middleWareArr)(createStore)(finalReducers);

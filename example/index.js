@@ -7,16 +7,21 @@ import React,{Component,PropTypes} from 'react';
 var reducer=function(state,action){
 	return Object.assign({},state,action);
 };
-var action=()=>{
-	return {type:'test'}
-}
+var action=()=>(dispatch,getState)=>{
+		debugger;
+		return dispatch({type:'test'})
+	};
+
 class Container extends Component{
 	render(){
+		debugger;
 		return (<div onClick={()=>{
 						alert('clicked');
+						debugger;
 						this.props.action.apply(this);
 					}}>
-			测试react-react管理的事件
+					测试react-react管理的事件
+					{this.props.type}
 			</div>)
 }
 };
